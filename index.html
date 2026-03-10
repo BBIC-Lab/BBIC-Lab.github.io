@@ -6,88 +6,73 @@
     <title>Your Name | Homepage</title>
     <meta
       name="description"
-      content="Personal homepage template for GitHub Pages. Replace the placeholder text with your own bio, links, and projects."
+      content="A simple academic homepage template for GitHub Pages."
     >
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <main class="page-shell">
-      <section class="hero-card">
-        <div class="hero-copy">
-          <p class="eyebrow">Personal Homepage</p>
+    <main class="page">
+      <section class="intro">
+        <div class="intro-text">
+          <p class="site-note">Personal Homepage</p>
           <h1>Your Name</h1>
-          <p class="hero-lead">
-            这里先放你的身份介绍，比如学校、实验室、研究方向，或者你想让别人一眼看到的个人标签。
-            This homepage is now detached from the original author's profile and ready for your own content.
+          <p>
+            这里先放你的身份介绍，比如学校、实验室、研究方向，或者你希望访问者第一眼看到的个人标签。
+            This homepage is now ready for your own bio, links, and projects.
           </p>
-          <div class="hero-links">
+          <p>
+            你可以把这一段控制在 3 到 5 句，保持信息清楚、语气自然，不需要写得太满。
+          </p>
+          <p class="contact-links">
             <a href="mailto:your_email@example.com">Email</a>
+            <span>/</span>
             <a href="https://github.com/your-github-username">GitHub</a>
-            <a href="https://scholar.google.com/">Google Scholar</a>
+            <span>/</span>
+            <a href="https://scholar.google.com/">Scholar</a>
+            <span>/</span>
             <a href="https://www.linkedin.com/">LinkedIn</a>
-          </div>
-        </div>
-        <div class="hero-panel" aria-label="Profile placeholder">
-          <div class="avatar-badge">YN</div>
-          <p class="panel-title">Quick Intro</p>
-          <p class="panel-text">
-            Replace this block with a photo, a short bio, or a few lines about what you are building now.
           </p>
+        </div>
+        <div class="intro-side">
+          <div class="avatar-placeholder" aria-label="Profile placeholder">YN</div>
         </div>
       </section>
 
-      <section class="content-grid">
-        <article class="content-card">
-          <h2>About</h2>
-          <p>
-            这一段建议写成 3 到 5 句：你是谁、你在做什么、目前关注什么问题、你希望别人通过这个主页找到什么。
-          </p>
-          <p>
-            如果你暂时没有完整内容，也可以先保留这版结构，后续只需要改文字和链接，不需要再重做页面。
-          </p>
-        </article>
-
-        <article class="content-card">
-          <h2>Current Focus</h2>
-          <ul class="simple-list">
-            <li>方向 1：例如计算机视觉 / 机器学习 / 系统 / 设计</li>
-            <li>方向 2：例如项目经历、论文、作品集或开源工作</li>
-            <li>方向 3：例如你现在正在找合作、实习、全职机会</li>
-          </ul>
-        </article>
+      <section class="section-block">
+        <h2>About</h2>
+        <p>
+          这一段建议写你是谁、你在做什么、目前主要关注哪些问题，以及别人为什么会想通过这个主页联系你。
+        </p>
+        <p>
+          如果你暂时还没有完整内容，也可以先把结构留着，后面逐步替换文字即可。
+        </p>
       </section>
 
-      <section class="content-card">
-        <div class="section-heading">
-          <h2>Featured Links</h2>
-          <p>先放最重要的入口，后面再慢慢补全。</p>
-        </div>
-        <div class="feature-grid">
-          <a class="feature-item" href="./mipnerf/">
-            <span class="feature-label">Project Page</span>
-            <strong>mip-NeRF</strong>
-            <span>Repo 里已经有的子页面，可以继续保留或替换。</span>
-          </a>
-          <a class="feature-item" href="./mipnerf360/">
-            <span class="feature-label">Project Page</span>
-            <strong>mip-NeRF 360</strong>
-            <span>如果这些不是你的内容，后面可以删掉或改成你自己的项目。</span>
-          </a>
-          <a class="feature-item" href="./zipnerf/">
-            <span class="feature-label">Project Page</span>
-            <strong>Zip-NeRF</strong>
-            <span>主页先上线，细节内容之后再逐步收拾最省时间。</span>
-          </a>
-        </div>
+      <section class="section-block">
+        <h2>Current Focus</h2>
+        <ul>
+          <li>方向 1：例如计算机视觉 / 机器学习 / 系统 / 设计</li>
+          <li>方向 2：例如项目经历、论文、作品集或开源工作</li>
+          <li>方向 3：例如你现在正在找合作、实习、全职机会</li>
+        </ul>
       </section>
 
-      <section class="content-card">
-        <div class="section-heading">
-          <h2>Next Edits</h2>
-          <p>你接下来只需要替换下面这些占位内容。</p>
+      <section class="section-block">
+        <h2>Selected Pages</h2>
+        <div class="link-list">
+          <a href="./mipnerf/">mip-NeRF</a>
+          <a href="./mipnerf360/">mip-NeRF 360</a>
+          <a href="./zipnerf/">Zip-NeRF</a>
         </div>
-        <ul class="simple-list">
+        <p class="section-note">
+          如果这些还不是你的内容，后面可以再决定保留、替换，或者删掉。
+        </p>
+      </section>
+
+      <section class="section-block">
+        <h2>Next Edits</h2>
+        <ul>
           <li>把 `Your Name` 改成你的名字</li>
           <li>把邮箱、GitHub、Scholar、LinkedIn 链接改成你自己的</li>
           <li>把 About 和 Current Focus 改成你的真实介绍</li>
